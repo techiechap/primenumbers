@@ -1,28 +1,25 @@
-Prime Numbers Finder
+# Prime Numbers Finder
+This is a simple web application built with Flask that allows users to find all prime numbers between 2 and a user-specified number. 
 
-This is a simple web application built with Flask that allows users to find all prime numbers between 2 and a user-specified number.
+## Installation
+Sub Topic Headings H2 is used for sub sections like Configurations, Authors etc.
 
-Installation:
-
-To install the necessary dependencies, run the following command:
-
-Copy code:
-
+````
 pip install -r requirements.txt
+````
 
-Usage:
+The above formatting is used to create a box which can display code or command in a well formatted manner.
 
-To run the application, use the following command:
+
+## Usage
+
+
+````
 python app.py
-Then, navigate to http://localhost:5000 in your web browser to access the application.
+        
+````
+Then, navigate to http://localhost:5000 in your web browser to access the application
 
-Dependencies
-Flask==2.0.2
-redis==3.5.3
+## Contributors 
+ Ashish
 
-
-Contributors
-Ashish
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
