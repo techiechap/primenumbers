@@ -1,0 +1,21 @@
+from flask import Flask, render_template, request
+from prime_numbers import find_primes
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+@app.route('/primes', methods=['POST'])
+def primes():
+    num = int(request.form['num'])
+    prime_list = find_primes(num)
+    return render_template('primes.html', prime_list=prime_list)
+
+@app.route('/home')
+def back_home():
+    return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
