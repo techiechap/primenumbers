@@ -2,7 +2,7 @@
 This is a simple web application built with Flask that allows users to find all prime numbers between 2 and a user-specified number. 
 
 ## Installation
-Sub Topic Headings H2 is used for sub sections like Configurations, Authors etc.
+This step is requires to install flaks and other dependencies
 
 ````
 pip install -r requirements.txt
