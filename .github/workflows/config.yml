@@ -4,7 +4,7 @@ jobs:
   job-1:
    runs-on: ubuntu latest
    steps:
-      - name: jobe name
-        run: 
+      - name: jobb-name
+        run: python app.py
 
    
