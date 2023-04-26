@@ -2,7 +2,7 @@ name: find-prime-numbers
 'on': push
 jobs: 
   job-1:
-   runs-on: ubuntu latest
+   runs-on: ubuntu-latest
    steps:
       - name: jobb-name
         run: python app.py
