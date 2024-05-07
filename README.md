@@ -1,6 +1,7 @@
 # Prime Numbers Finder
 
 This is a simple web application built with Flask that allows users to find all prime numbers between number 2 and a user-specified number. 
+This app can be used to to generate load to test the compute 
 ## Installation
 
 This step is requires to install flaks and other dependencies
